@@ -1,0 +1,91 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#boundary {
+    position: relative;
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+div#snafu {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    background-color: green;
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    top: 20px; 
+}
+
+div#gamestats {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 50px;
+    display: none;
+}
+
+div#gamestats span#scoreArea {
+    float: right;
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+div#gamestats span#levelArea {
+    float: right;
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+div#gameover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 50px;
+}
+
+div#gameover button#newGame {
+   float: right;
+   padding: 5px;
+   margin: 5px;
+}
+
+div.serpent {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+div.apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+div#instructions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 5px 10px;
+    text-align: left;
+}
+div#paused {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    display: none;
+}
+

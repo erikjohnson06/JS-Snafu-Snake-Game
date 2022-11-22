@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Snafu | Classic Snake Game </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="snafu.css">
+        <script src="snafu.js"></script>
+        <script>
+
+            window.onload = function () {
+                Snafu.init();
+            };
+
+        </script>
+    </head>
+    <body>
+
+         <div id="boundary">
+	         <div id="snafu">
+                    <div id="instructions">
+                     Move : &larr; &rarr; &uarr; &darr; <br />
+                     Pause: [Space Bar] 
+                    </div>
+                    <div id="paused">
+                       (Paused)
+                    </div>
+	            <div id="gamestats">
+                        <span id="scoreArea"></span>
+                        <span id="levelArea"></span>
+	            </div>
+	            <div id="gameover">
+	               <button id="newGame" type="button">Start a New Game</button>
+	            </div>
+	        </div>
+         </div>
+    </body>
+</html>     
