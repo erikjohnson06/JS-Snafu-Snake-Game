@@ -242,7 +242,7 @@ var Snafu = (function () {
         /*
          * Get the gameboard element
          * 
-         * @return {object} HTML element
+         * @return {Element} HTML element
          */  
         getBoard: function () {
             return document.getElementById("snafu");
@@ -358,7 +358,7 @@ var Snafu = (function () {
             /**
              * Use this method to place an apple, grass or snake at a specified location in the grid
              * 
-             * @param {object} el
+             * @param {Element} el
              * @param {int} x
              * @param {int} y
              * @return {void}
@@ -599,7 +599,7 @@ var Snafu = (function () {
         /*
          * Get the current position of the leading snake div element from the movement array
          * 
-         * @return {object}
+         * @return {Object}
          */   
         getHeadPos: function () {  //Gets head position in grids
             if (this.movement[0]) {
@@ -848,7 +848,7 @@ var Snafu = (function () {
         /**
          * This function will check whether the snake has crashed into the boundary or itself
          * 
-         * @return {bool}
+         * @return {Boolean}
          */
         checkCrashEvent : function () {
 
@@ -870,7 +870,7 @@ var Snafu = (function () {
         /**
          * This function will monitor whether the snake has "eaten" an apple, and grow accordingly
          * 
-         * @return {bool}
+         * @return {Boolean}
          */
         checkGrowthEvent : function () {
 
