@@ -2,8 +2,8 @@
 
 Javascript-based game reminiscent of the classic Snafu game. 
 
-Created: 2015
-Author: Erik Johnson
+* Created: 2015
+* Author: Erik Johnson
 
 The goal of this game is to gobble up as many apples (red squares) on the board 
 while not crashing into yourself or the boundary. There are five stages, each with 
